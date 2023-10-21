@@ -1,7 +1,6 @@
 import MetaTrader5 as mt5
 
-# Definir la variable TIMEOUT (asegúrate de que esté definida antes de usarla)
-TIMEOUT = 10000  # Este es un valor de ejemplo, puedes ajustarlo según tus necesidades
+TIMEOUT = 10000  
 
 # Inicializar MetaTrader 5
 if not mt5.initialize(
